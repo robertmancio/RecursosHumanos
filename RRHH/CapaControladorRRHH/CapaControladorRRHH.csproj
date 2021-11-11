@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="clsEncriptar.cs" />
     <Compile Include="controladorEnlacesContable.cs" />
+    <Compile Include="controladorNominasCierre.cs" />
     <Compile Include="controladorPrestaciones.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

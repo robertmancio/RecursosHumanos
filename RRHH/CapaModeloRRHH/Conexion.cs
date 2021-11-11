@@ -24,6 +24,7 @@ namespace CapaModelo
             }
             return conn;
         }
+
         //metodo para cerrar la conexion
         public void desconexion(OdbcConnection conn)
         {
@@ -38,4 +39,3 @@ namespace CapaModelo
         }
     }
 }
-

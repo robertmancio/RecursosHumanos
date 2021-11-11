@@ -23,7 +23,6 @@ namespace CapaVista
 
         private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
         }
 
         private void aplicacionesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -33,8 +32,6 @@ namespace CapaVista
             form3.Show();
             form3.funActualizarUsuario(txtUsuario.Text);
         }
-
-      
 
         private void tsmEmpleados_Click(object sender, EventArgs e)
         {
@@ -62,7 +59,6 @@ namespace CapaVista
 
         private void nominasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
         }
 
         private void módulosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -94,12 +90,32 @@ namespace CapaVista
             frmPrestaciones form3 = new frmPrestaciones();
             form3.MdiParent = this.MdiParent;
             form3.Show();
-        
         }
 
         private void enlacesContabilidadToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmEnlacesContable form3 = new frmEnlacesContable();
+            form3.MdiParent = this.MdiParent;
+            form3.Show();
+        }
+
+        private void btnGenerarNóminas_Click(object sender, EventArgs e)
+        {
+            frmNomina form3 = new frmNomina();
+            form3.MdiParent = this.MdiParent;
+            form3.Show();
+        }
+
+        private void btnCierreDeNominas_Click(object sender, EventArgs e)
+        {
+            frmVerNominas form3 = new frmVerNominas();
+            form3.MdiParent = this.MdiParent;
+            form3.Show();
+        }
+
+        private void btnVerCierresDeNomina_Click(object sender, EventArgs e)
+        {
+            frmVerCierresDeNomina form3 = new frmVerCierresDeNomina();
             form3.MdiParent = this.MdiParent;
             form3.Show();
         }

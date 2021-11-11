@@ -53,6 +53,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sentencias.cs" />
     <Compile Include="SentenciasEnlacesContables.cs" />
+    <Compile Include="SentenciasNominas.cs" />
     <Compile Include="totalPrestacion.cs" />
   </ItemGroup>
   <ItemGroup>

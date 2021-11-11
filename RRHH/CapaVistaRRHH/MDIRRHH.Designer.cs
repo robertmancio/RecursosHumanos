@@ -43,8 +43,10 @@ namespace CapaVista
             this.bitacoraToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.enlacesContabilidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nominasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cierreDeNóminaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnGenerarNóminas = new System.Windows.Forms.ToolStripMenuItem();
             this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.btnCierreDeNominas = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnVerCierresDeNomina = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -154,17 +156,20 @@ namespace CapaVista
             // nominasToolStripMenuItem
             // 
             this.nominasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cierreDeNóminaToolStripMenuItem});
+            this.btnGenerarNóminas,
+            this.btnCierreDeNominas,
+            this.btnVerCierresDeNomina});
             this.nominasToolStripMenuItem.Name = "nominasToolStripMenuItem";
             this.nominasToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
             this.nominasToolStripMenuItem.Text = "Nóminas";
             this.nominasToolStripMenuItem.Click += new System.EventHandler(this.nominasToolStripMenuItem_Click);
             // 
-            // cierreDeNóminaToolStripMenuItem
+            // btnGenerarNóminas
             // 
-            this.cierreDeNóminaToolStripMenuItem.Name = "cierreDeNóminaToolStripMenuItem";
-            this.cierreDeNóminaToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
-            this.cierreDeNóminaToolStripMenuItem.Text = "Cierre de Nómina";
+            this.btnGenerarNóminas.Name = "btnGenerarNóminas";
+            this.btnGenerarNóminas.Size = new System.Drawing.Size(237, 24);
+            this.btnGenerarNóminas.Text = "Nóminas";
+            this.btnGenerarNóminas.Click += new System.EventHandler(this.btnGenerarNóminas_Click);
             // 
             // txtUsuario
             // 
@@ -173,6 +178,20 @@ namespace CapaVista
             this.txtUsuario.Size = new System.Drawing.Size(65, 20);
             this.txtUsuario.TabIndex = 4;
             this.txtUsuario.Visible = false;
+            // 
+            // btnCierreDeNominas
+            // 
+            this.btnCierreDeNominas.Name = "btnCierreDeNominas";
+            this.btnCierreDeNominas.Size = new System.Drawing.Size(237, 24);
+            this.btnCierreDeNominas.Text = "Cierre de Nóminas";
+            this.btnCierreDeNominas.Click += new System.EventHandler(this.btnCierreDeNominas_Click);
+            // 
+            // btnVerCierresDeNomina
+            // 
+            this.btnVerCierresDeNomina.Name = "btnVerCierresDeNomina";
+            this.btnVerCierresDeNomina.Size = new System.Drawing.Size(237, 24);
+            this.btnVerCierresDeNomina.Text = "Ver Cierres de Nómina";
+            this.btnVerCierresDeNomina.Click += new System.EventHandler(this.btnVerCierresDeNomina_Click);
             // 
             // MDIRRHH
             // 
@@ -211,6 +230,8 @@ namespace CapaVista
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.ToolStripMenuItem enlacesContabilidadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nominasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cierreDeNóminaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnGenerarNóminas;
+        private System.Windows.Forms.ToolStripMenuItem btnCierreDeNominas;
+        private System.Windows.Forms.ToolStripMenuItem btnVerCierresDeNomina;
     }
 }

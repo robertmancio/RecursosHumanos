@@ -99,6 +99,12 @@
     <Compile Include="frmEnlacesContable.Designer.cs">
       <DependentUpon>frmEnlacesContable.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNomina.Designer.cs">
+      <DependentUpon>frmNomina.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPrestaciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,18 @@
     </Compile>
     <Compile Include="frmAgregarEmpleado.designer.cs">
       <DependentUpon>frmAgregarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVerCierresDeNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerCierresDeNomina.Designer.cs">
+      <DependentUpon>frmVerCierresDeNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVerNominas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerNominas.Designer.cs">
+      <DependentUpon>frmVerNominas.cs</DependentUpon>
     </Compile>
     <Compile Include="MDIRRHH.cs">
       <SubType>Form</SubType>
@@ -188,6 +206,9 @@
     <EmbeddedResource Include="frmEnlacesContable.resx">
       <DependentUpon>frmEnlacesContable.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmNomina.resx">
+      <DependentUpon>frmNomina.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPrestaciones.resx">
       <DependentUpon>frmPrestaciones.cs</DependentUpon>
     </EmbeddedResource>
@@ -202,6 +223,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAgregarEmpleado.resx">
       <DependentUpon>frmAgregarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerCierresDeNomina.resx">
+      <DependentUpon>frmVerCierresDeNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerNominas.resx">
+      <DependentUpon>frmVerNominas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIRRHH.resx">
       <DependentUpon>MDIRRHH.cs</DependentUpon>
