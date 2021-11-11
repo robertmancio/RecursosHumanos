@@ -1,8 +1,4 @@
-﻿using CapaVista;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 
 namespace RRHH_ejecutable_
@@ -17,7 +13,7 @@ namespace RRHH_ejecutable_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MDIRRHH()) ;
+            Application.Run(new CapaVista.MDIRRHH()) ;
         }
     }
 }
