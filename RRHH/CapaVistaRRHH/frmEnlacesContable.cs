@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//0901-18-17144 Luis De La Cruz
 namespace CapaVista
 {
     public partial class frmEnlacesContable : Form
@@ -23,6 +24,7 @@ namespace CapaVista
         public frmEnlacesContable()
         {
             InitializeComponent();
+            CenterToScreen();
             textBox1.Text = incrementarId();
 
         }
@@ -192,7 +194,7 @@ namespace CapaVista
 
         private void manualDeUsuarioToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            Help.ShowHelp(this, "C:/Users/USUARIO 1/Desktop/rh/ayuda/ayudas enlaces/AyudaEnlaceContable.chm", "C:/Users/USUARIO 1/Desktop/rh/ayuda/ayudas enlaces/ManualUsuarioEnlaceContable.html");
+            Help.ShowHelp(this, "C:/Users/RM/Desktop/pruebaaaa/RecursosHumanos/RRHH/Ayudas/AyudaEnlaceContable.chm", "C:/Users/RM/Desktop/pruebaaaa/RecursosHumanos/RRHH/Ayudas/ManualUsuarioEnlaceContable.html");
         }
 
         private void reportesToolStripMenuItem_Click_1(object sender, EventArgs e)

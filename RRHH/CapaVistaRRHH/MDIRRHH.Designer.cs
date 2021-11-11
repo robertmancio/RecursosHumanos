@@ -29,6 +29,7 @@ namespace CapaVista
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MDIRRHH));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,9 +45,10 @@ namespace CapaVista
             this.enlacesContabilidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nominasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnGenerarNóminas = new System.Windows.Forms.ToolStripMenuItem();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.btnCierreDeNominas = new System.Windows.Forms.ToolStripMenuItem();
             this.btnVerCierresDeNomina = new System.Windows.Forms.ToolStripMenuItem();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +72,8 @@ namespace CapaVista
             // inicioToolStripMenuItem
             // 
             this.inicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cerrarSesiónToolStripMenuItem});
+            this.cerrarSesiónToolStripMenuItem,
+            this.salirToolStripMenuItem});
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
             this.inicioToolStripMenuItem.Size = new System.Drawing.Size(58, 24);
             this.inicioToolStripMenuItem.Text = "Inicio";
@@ -78,7 +81,7 @@ namespace CapaVista
             // cerrarSesiónToolStripMenuItem
             // 
             this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
@@ -171,14 +174,6 @@ namespace CapaVista
             this.btnGenerarNóminas.Text = "Nóminas";
             this.btnGenerarNóminas.Click += new System.EventHandler(this.btnGenerarNóminas_Click);
             // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Location = new System.Drawing.Point(687, 0);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(65, 20);
-            this.txtUsuario.TabIndex = 4;
-            this.txtUsuario.Visible = false;
-            // 
             // btnCierreDeNominas
             // 
             this.btnCierreDeNominas.Name = "btnCierreDeNominas";
@@ -193,11 +188,26 @@ namespace CapaVista
             this.btnVerCierresDeNomina.Text = "Ver Cierres de Nómina";
             this.btnVerCierresDeNomina.Click += new System.EventHandler(this.btnVerCierresDeNomina_Click);
             // 
+            // txtUsuario
+            // 
+            this.txtUsuario.Location = new System.Drawing.Point(687, 0);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(65, 20);
+            this.txtUsuario.TabIndex = 4;
+            this.txtUsuario.Visible = false;
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
             // MDIRRHH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CapaVistaRRHH.Properties.Resources._90_Simple_Backgrounds_Edit_and_Download_Visual_Learning_Center;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(752, 427);
             this.Controls.Add(this.txtUsuario);
@@ -233,5 +243,6 @@ namespace CapaVista
         private System.Windows.Forms.ToolStripMenuItem btnGenerarNóminas;
         private System.Windows.Forms.ToolStripMenuItem btnCierreDeNominas;
         private System.Windows.Forms.ToolStripMenuItem btnVerCierresDeNomina;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
 }

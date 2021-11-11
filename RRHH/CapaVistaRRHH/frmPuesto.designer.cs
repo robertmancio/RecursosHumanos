@@ -29,6 +29,7 @@ namespace CapaVista
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPuesto));
             this.dvgConsulta = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.lblPrestacionLaboral = new System.Windows.Forms.Label();
@@ -176,6 +177,7 @@ namespace CapaVista
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.rdbActivo);
             this.groupBox1.Controls.Add(this.rdbInactivo);
             this.groupBox1.Location = new System.Drawing.Point(96, 382);
@@ -199,7 +201,7 @@ namespace CapaVista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CapaVistaRRHH.Properties.Resources._90_Simple_Backgrounds_Edit_and_Download_Visual_Learning_Center;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1188, 515);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label3);

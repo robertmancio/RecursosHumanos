@@ -29,6 +29,7 @@ namespace CapaVista
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVerNominas));
             this.dgvNominas = new System.Windows.Forms.DataGridView();
             this.cboAnios = new System.Windows.Forms.ComboBox();
             this.cboMeses = new System.Windows.Forms.ComboBox();
@@ -130,7 +131,7 @@ namespace CapaVista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CapaVistaRRHH.Properties.Resources._90_Simple_Backgrounds_Edit_and_Download_Visual_Learning_Center;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1188, 663);
             this.Controls.Add(this.txtValidaciones);
             this.Controls.Add(this.txtTotalAPagar);
@@ -142,7 +143,7 @@ namespace CapaVista
             this.Controls.Add(this.cboAnios);
             this.Controls.Add(this.dgvNominas);
             this.Name = "frmVerNominas";
-            this.Text = "frmVerNominas";
+            this.Text = "5402 Ver Nominas";
             ((System.ComponentModel.ISupportInitialize)(this.dgvNominas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

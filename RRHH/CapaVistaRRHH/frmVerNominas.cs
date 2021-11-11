@@ -23,6 +23,7 @@ namespace CapaVista
         {
             InitializeComponent();
             LlenarAños();
+            CenterToScreen();
             LlenarMeses();
         }
 

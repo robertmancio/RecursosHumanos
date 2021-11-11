@@ -29,6 +29,7 @@ namespace CapaVista
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDiasTrabajados));
             this.dgvDiasTrabajados = new System.Windows.Forms.DataGridView();
             this.cmbEmpleado = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -78,6 +79,8 @@ namespace CapaVista
             this.dgvDiasTrabajados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDiasTrabajados.Location = new System.Drawing.Point(408, 162);
             this.dgvDiasTrabajados.Name = "dgvDiasTrabajados";
+            this.dgvDiasTrabajados.ReadOnly = true;
+            this.dgvDiasTrabajados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDiasTrabajados.Size = new System.Drawing.Size(725, 370);
             this.dgvDiasTrabajados.TabIndex = 37;
             this.dgvDiasTrabajados.SelectionChanged += new System.EventHandler(this.dvgCuentas_SelectionChanged);
@@ -402,6 +405,7 @@ namespace CapaVista
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.rdbActivo);
             this.groupBox1.Controls.Add(this.rdbInactivo);
             this.groupBox1.Location = new System.Drawing.Point(67, 506);
@@ -449,7 +453,7 @@ namespace CapaVista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CapaVistaRRHH.Properties.Resources._90_Simple_Backgrounds_Edit_and_Download_Visual_Learning_Center;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1188, 641);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtEstado);

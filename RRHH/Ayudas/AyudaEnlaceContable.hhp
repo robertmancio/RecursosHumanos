@@ -1,0 +1,17 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=AyudaEnlaceContable.chm
+Contents file=Ayuda.hhc
+Default Window=Ayuda Enlace
+Display compile progress=No
+Language=0x100a Español (Guatemala)
+
+[WINDOWS]
+Ayuda Enlace="Ayuda para el uso de Enlace Contable","Ayuda.hhc",,"ManualUsuarioEnlaceContable.html","ManualUsuarioEnlaceContable.html","ManualUsuarioEnlaceContable.html",,"ManualUsuarioEnlaceContable.html",,0x23520,,0xc387e,,,,,,,,0
+
+
+[FILES]
+ManualUsuarioEnlaceContable.html
+
+[INFOTYPES]
+

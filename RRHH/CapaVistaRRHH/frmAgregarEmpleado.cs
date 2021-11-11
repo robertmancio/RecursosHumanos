@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//0901-18-1982 Roberto López 
 namespace CapaVista
 {
     public partial class frmAgregarEmpleado : Form

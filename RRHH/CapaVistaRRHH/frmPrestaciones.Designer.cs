@@ -29,6 +29,7 @@ namespace CapaVistaRRHH
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrestaciones));
             this.label8 = new System.Windows.Forms.Label();
             this.calcular = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -296,7 +297,7 @@ namespace CapaVistaRRHH
             // manualToolStripMenuItem
             // 
             this.manualToolStripMenuItem.Name = "manualToolStripMenuItem";
-            this.manualToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.manualToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.manualToolStripMenuItem.Text = "Manual de usuario";
             this.manualToolStripMenuItem.Click += new System.EventHandler(this.manualToolStripMenuItem_Click_1);
             // 
@@ -304,7 +305,7 @@ namespace CapaVistaRRHH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CapaVistaRRHH.Properties.Resources._90_Simple_Backgrounds_Edit_and_Download_Visual_Learning_Center;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(966, 578);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.calcular);
@@ -330,7 +331,7 @@ namespace CapaVistaRRHH
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "frmPrestaciones";
-            this.Text = "5100 Liquidacion Empleados";
+            this.Text = "5101 Liquidacion Empleados";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

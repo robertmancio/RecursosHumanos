@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+//0901-18-17144 Luis De La Cruz
 namespace CapaControlador
 {
     public class controladorEnlacesContable

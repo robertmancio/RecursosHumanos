@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//0901-18-17144 Luis De La Cruz
 namespace CapaModelo
 {
 
@@ -20,7 +21,7 @@ namespace CapaModelo
             //and fechaPoliza between cast('2021-10-1' as date) and cast('2021-10-02' as date);
 
             string total = "";
-            string Query = "select sum(saldo) from polizaDetalle where concepto = 'Venta' and idTipoOperacion = '1' and" +
+            string Query = "select sum(saldo) from polizaDetalle where concepto = 'Nomina' and idTipoOperacion = '1' and" +
                 " fechaPoliza between cast('" + fechaI + "' as date) and cast('" + fechaF + "' as date) ;";
 
             OdbcCommand consulta = new OdbcCommand(Query, cn.conexion());
@@ -45,7 +46,7 @@ namespace CapaModelo
             //and fechaPoliza between cast('2021-10-1' as date) and cast('2021-10-02' as date);
 
             string total = "";
-            string Query = "select sum(saldo) from polizaDetalle where concepto = 'Venta' and idTipoOperacion = '2' and" +
+            string Query = "select sum(saldo) from polizaDetalle where concepto = 'Nomina' and idTipoOperacion = '2' and" +
                 " fechaPoliza between cast('" + fechaI + "' as date) and cast('" + fechaF + "' as date) ;";
 
             OdbcCommand consulta = new OdbcCommand(Query, cn.conexion());

@@ -29,6 +29,7 @@ namespace CapaVista
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDesarrolloDeCarrera));
             this.dvgPrestacionesLaborales = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -56,8 +57,11 @@ namespace CapaVista
             this.dvgPrestacionesLaborales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgPrestacionesLaborales.Location = new System.Drawing.Point(484, 153);
             this.dvgPrestacionesLaborales.Name = "dvgPrestacionesLaborales";
+            this.dvgPrestacionesLaborales.ReadOnly = true;
+            this.dvgPrestacionesLaborales.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dvgPrestacionesLaborales.Size = new System.Drawing.Size(659, 346);
             this.dvgPrestacionesLaborales.TabIndex = 37;
+            this.dvgPrestacionesLaborales.SelectionChanged += new System.EventHandler(this.dvgCuentas_SelectionChanged);
             // 
             // label2
             // 
@@ -181,6 +185,7 @@ namespace CapaVista
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.rdbActivo);
             this.groupBox1.Controls.Add(this.rdbInactivo);
             this.groupBox1.Location = new System.Drawing.Point(106, 414);
@@ -200,6 +205,7 @@ namespace CapaVista
             this.rdbActivo.TabStop = true;
             this.rdbActivo.Text = "Activo";
             this.rdbActivo.UseVisualStyleBackColor = true;
+            this.rdbActivo.CheckedChanged += new System.EventHandler(this.rdbActivo_CheckedChanged);
             // 
             // rdbInactivo
             // 
@@ -211,6 +217,7 @@ namespace CapaVista
             this.rdbInactivo.TabStop = true;
             this.rdbInactivo.Text = "Inactivo";
             this.rdbInactivo.UseVisualStyleBackColor = true;
+            this.rdbInactivo.CheckedChanged += new System.EventHandler(this.rdbInactivo_CheckedChanged);
             // 
             // txtEstado
             // 
@@ -220,12 +227,13 @@ namespace CapaVista
             this.txtEstado.TabIndex = 51;
             this.txtEstado.Tag = "estado";
             this.txtEstado.Visible = false;
+            this.txtEstado.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
             // 
             // frmDesarrolloDeCarrera
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CapaVistaRRHH.Properties.Resources._90_Simple_Backgrounds_Edit_and_Download_Visual_Learning_Center;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1189, 529);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label4);

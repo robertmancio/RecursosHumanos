@@ -23,12 +23,18 @@ namespace CapaVista
 
         private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            frmLoginHSC form = new frmLoginHSC();
+            if (form.ShowDialog() == DialogResult.OK)
+            {
+                txtUsuario.Text = form.usuario();
+            }
+            else { this.Close(); }
         }
 
         private void aplicacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmPuesto form3 = new frmPuesto();
-            form3.MdiParent = this;
+            form3.MdiParent = this.MdiParent;
             form3.Show();
             form3.funActualizarUsuario(txtUsuario.Text);
         }
@@ -118,6 +124,11 @@ namespace CapaVista
             frmVerCierresDeNomina form3 = new frmVerCierresDeNomina();
             form3.MdiParent = this.MdiParent;
             form3.Show();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

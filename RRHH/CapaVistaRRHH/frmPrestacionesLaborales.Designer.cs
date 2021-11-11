@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrestacionesLaborales));
             this.lblempleado = new System.Windows.Forms.Label();
             this.lblPrestacionLaboral = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -94,8 +95,11 @@
             this.dvgPrestaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgPrestaciones.Location = new System.Drawing.Point(416, 141);
             this.dvgPrestaciones.Name = "dvgPrestaciones";
+            this.dvgPrestaciones.ReadOnly = true;
+            this.dvgPrestaciones.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dvgPrestaciones.Size = new System.Drawing.Size(698, 299);
             this.dvgPrestaciones.TabIndex = 29;
+            this.dvgPrestaciones.SelectionChanged += new System.EventHandler(this.dgvImpuesto_SelectionChanged);
             // 
             // navegador1
             // 
@@ -149,6 +153,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.rdbActivo);
             this.groupBox1.Controls.Add(this.rdbInactivo);
             this.groupBox1.Location = new System.Drawing.Point(49, 397);
@@ -168,6 +173,7 @@
             this.rdbActivo.TabStop = true;
             this.rdbActivo.Text = "Activo";
             this.rdbActivo.UseVisualStyleBackColor = true;
+            this.rdbActivo.CheckedChanged += new System.EventHandler(this.rdbActivo_CheckedChanged);
             // 
             // rdbInactivo
             // 
@@ -179,6 +185,7 @@
             this.rdbInactivo.TabStop = true;
             this.rdbInactivo.Text = "Inactivo";
             this.rdbInactivo.UseVisualStyleBackColor = true;
+            this.rdbInactivo.CheckedChanged += new System.EventHandler(this.rdbInactivo_CheckedChanged);
             // 
             // txtEstado
             // 
@@ -188,12 +195,13 @@
             this.txtEstado.TabIndex = 51;
             this.txtEstado.Tag = "estado";
             this.txtEstado.Visible = false;
+            this.txtEstado.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
             // 
             // frmPrestacionesLaborales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CapaVistaRRHH.Properties.Resources._90_Simple_Backgrounds_Edit_and_Download_Visual_Learning_Center;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1186, 534);
             this.Controls.Add(this.groupBox1);

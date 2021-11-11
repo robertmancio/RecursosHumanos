@@ -8,6 +8,7 @@ using System.Data;
 using System.Data.Odbc;
 using System.Windows.Forms;
 
+//0901-18-1982 Roberto López 
 namespace CapaVista
 {
     public partial class frmDesarrolloDeCarrera : Form

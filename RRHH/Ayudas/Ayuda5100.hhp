@@ -1,0 +1,18 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayuda5100.chm
+Contents file=Ayuda5100.hhc
+Default Window=Ayuda5100
+Default topic=Manual-de-Usuario-liquidacion.html
+Display compile progress=No
+Language=0x100a Español (Guatemala)
+
+[WINDOWS]
+Ayuda5100="Ayuda5100","Ayuda5100.hhc",,"Manual-de-Usuario-liquidacion.html","Manual-de-Usuario-liquidacion.html","Manual-de-Usuario-liquidacion.html","Ayuda5100","Manual-de-Usuario-liquidacion.html","Ayuda5100",0x23520,,0xc387e,,,,,,,,0
+
+
+[FILES]
+Manual-de-Usuario-liquidacion.html
+
+[INFOTYPES]
+

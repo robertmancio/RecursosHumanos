@@ -31,6 +31,7 @@ namespace CapaVista
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVerCierresDeNomina));
             this.dgvCierreDeNomina = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.cboAños = new System.Windows.Forms.ComboBox();
@@ -64,6 +65,7 @@ namespace CapaVista
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(504, 108);
             this.label1.Name = "label1";
@@ -94,14 +96,14 @@ namespace CapaVista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CapaVistaRRHH.Properties.Resources._90_Simple_Backgrounds_Edit_and_Download_Visual_Learning_Center;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1188, 663);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cboAños);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvCierreDeNomina);
             this.Name = "frmVerCierresDeNomina";
-            this.Text = "frmVerCierresDeNomina";
+            this.Text = "5403 Ver Cierres De Nomina";
             ((System.ComponentModel.ISupportInitialize)(this.dgvCierreDeNomina)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

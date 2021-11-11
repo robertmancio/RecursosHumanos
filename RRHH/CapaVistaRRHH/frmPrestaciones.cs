@@ -21,6 +21,7 @@ namespace CapaVistaRRHH
             llenarcbxPrestacion();
             llenarcbxEmpleado();
             actualizardatagriew();
+            CenterToScreen();
         }
         private string tabla = "totalprestacion";
         public void actualizardatagriew()
@@ -225,7 +226,7 @@ namespace CapaVistaRRHH
 
         private void manualToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            Help.ShowHelp(this, "C:/Users/USUARIO 1/Desktop/rh/ayuda/Ayuda5100.chm", "C:/Users/USUARIO 1/Desktop/rh/ayuda/Manual-de-Usuario-liquidacion.html");
+            Help.ShowHelp(this, "C:/Users/RM/Desktop/pruebaaaa/RecursosHumanos/RRHH/Ayudas/Ayuda5100.chm", "C:/Users/RM/Desktop/pruebaaaa/RecursosHumanos/RRHH/Ayudas/Manual-de-Usuario-liquidacion.html");
         }
     }
 

@@ -29,6 +29,7 @@ namespace CapaVista
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNomina));
             this.label1 = new System.Windows.Forms.Label();
             this.txtSalarioTotal = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
@@ -65,6 +66,8 @@ namespace CapaVista
             this.txtValidaciones = new System.Windows.Forms.Label();
             this.btnGuardarMes = new System.Windows.Forms.Button();
             this.cboAnio = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNominaEmpleados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -423,12 +426,37 @@ namespace CapaVista
             this.cboAnio.TabIndex = 76;
             this.cboAnio.SelectedIndexChanged += new System.EventHandler(this.cboAnio_SelectedIndexChanged);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(37, 132);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(34, 18);
+            this.label3.TabIndex = 77;
+            this.label3.Text = "Año";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(37, 166);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(37, 18);
+            this.label4.TabIndex = 78;
+            this.label4.Text = "Mes";
+            // 
             // frmNomina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CapaVistaRRHH.Properties.Resources._90_Simple_Backgrounds_Edit_and_Download_Visual_Learning_Center;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1188, 663);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.cboAnio);
             this.Controls.Add(this.btnGuardarMes);
             this.Controls.Add(this.txtValidaciones);
@@ -466,7 +494,7 @@ namespace CapaVista
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSalarioTotal);
             this.Name = "frmNomina";
-            this.Text = "frmNomina";
+            this.Text = "5401 Nomina";
             ((System.ComponentModel.ISupportInitialize)(this.dgvNominaEmpleados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -510,5 +538,7 @@ namespace CapaVista
         private System.Windows.Forms.Label txtValidaciones;
         private System.Windows.Forms.Button btnGuardarMes;
         private System.Windows.Forms.ComboBox cboAnio;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
