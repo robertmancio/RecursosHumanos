@@ -42,3 +42,14 @@ C:\Users\RM\Desktop\pruebaaaa\RecursosHumanos\RRHH\CapaControladorRRHH\obj\Debug
 C:\Users\RM\Desktop\pruebaaaa\RecursosHumanos\RRHH\CapaControladorRRHH\obj\Debug\CapaControladorRRHH.csproj.CopyComplete
 C:\Users\RM\Desktop\pruebaaaa\RecursosHumanos\RRHH\CapaControladorRRHH\obj\Debug\CapaControladorRRHH.dll
 C:\Users\RM\Desktop\pruebaaaa\RecursosHumanos\RRHH\CapaControladorRRHH\obj\Debug\CapaControladorRRHH.pdb
+C:\Users\RM\Desktop\Nueva carpeta (4)\Modulos\RRHH\RRHH\CapaControladorRRHH\bin\Debug\CapaControladorRRHH.dll
+C:\Users\RM\Desktop\Nueva carpeta (4)\Modulos\RRHH\RRHH\CapaControladorRRHH\bin\Debug\CapaControladorRRHH.pdb
+C:\Users\RM\Desktop\Nueva carpeta (4)\Modulos\RRHH\RRHH\CapaControladorRRHH\bin\Debug\BCrypt.Net.dll
+C:\Users\RM\Desktop\Nueva carpeta (4)\Modulos\RRHH\RRHH\CapaControladorRRHH\bin\Debug\CapaModeloRRHH.dll
+C:\Users\RM\Desktop\Nueva carpeta (4)\Modulos\RRHH\RRHH\CapaControladorRRHH\bin\Debug\BCrypt.Net.xml
+C:\Users\RM\Desktop\Nueva carpeta (4)\Modulos\RRHH\RRHH\CapaControladorRRHH\bin\Debug\CapaModeloRRHH.pdb
+C:\Users\RM\Desktop\Nueva carpeta (4)\Modulos\RRHH\RRHH\CapaControladorRRHH\obj\Debug\CapaControladorRRHH.csproj.AssemblyReference.cache
+C:\Users\RM\Desktop\Nueva carpeta (4)\Modulos\RRHH\RRHH\CapaControladorRRHH\obj\Debug\CapaControladorRRHH.csproj.CoreCompileInputs.cache
+C:\Users\RM\Desktop\Nueva carpeta (4)\Modulos\RRHH\RRHH\CapaControladorRRHH\obj\Debug\CapaControladorRRHH.csproj.CopyComplete
+C:\Users\RM\Desktop\Nueva carpeta (4)\Modulos\RRHH\RRHH\CapaControladorRRHH\obj\Debug\CapaControladorRRHH.dll
+C:\Users\RM\Desktop\Nueva carpeta (4)\Modulos\RRHH\RRHH\CapaControladorRRHH\obj\Debug\CapaControladorRRHH.pdb

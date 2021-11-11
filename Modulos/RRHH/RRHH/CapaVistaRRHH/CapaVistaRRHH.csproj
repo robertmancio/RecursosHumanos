@@ -34,13 +34,14 @@
     <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="Bitacora, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\proyecto\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\VistaBitacoraLogin\bin\Debug\Bitacora.dll</HintPath>
+      <HintPath>..\..\..\..\Componentes\Seguridad\CodigoBitacora\VistaBitacoraLogin\bin\Debug\Bitacora.dll</HintPath>
     </Reference>
     <Reference Include="CapaModeloRRHH">
       <HintPath>..\CapaModeloRRHH\bin\Debug\CapaModeloRRHH.dll</HintPath>
     </Reference>
-    <Reference Include="CapaVistaSeguridadHSC">
-      <HintPath>..\..\..\..\proyecto\ProyectoHSC22021\Componentes\Seguridad\SeguridadHSC\CapaVista\bin\Debug\CapaVistaSeguridadHSC.dll</HintPath>
+    <Reference Include="CapaVistaSeguridadHSC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Componentes\Seguridad\SeguridadHSC\CapaVista\bin\Debug\CapaVistaSeguridadHSC.dll</HintPath>
     </Reference>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
@@ -48,7 +49,7 @@
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="DLLnav, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\final\ProyectoHSC22021\Componentes\Navegador\DLLnav\DLLnav\bin\Debug\DLLnav.dll</HintPath>
+      <HintPath>..\..\..\..\Componentes\Navegador\DLLnav\DLLnav\bin\Debug\DLLnav.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -77,7 +78,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="VistaBitacoraLogin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\proyecto\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\VistaBitacoraLogin\bin\Debug\VistaBitacoraLogin.dll</HintPath>
+      <HintPath>..\..\..\..\Componentes\Seguridad\CodigoBitacora\VistaBitacoraLogin\bin\Debug\VistaBitacoraLogin.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
