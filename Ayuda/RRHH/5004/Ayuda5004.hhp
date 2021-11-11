@@ -1,0 +1,17 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayuda5004.chm
+Contents file=Ayuda5004.hhc
+Default Window=Ayuda5004
+Display compile progress=No
+Language=0x100a Español (Guatemala)
+
+[WINDOWS]
+Ayuda5004="Ayuda5004","Ayuda5004.hhc",,"..\Ayuda5004.html","..\Ayuda5004.html","..\Ayuda5004.html","Ayuda5004","..\Ayuda5004.html","Ayuda5004",0x23520,,0xc387e,,,,,,,,0
+
+
+[FILES]
+..\Ayuda5004.html
+
+[INFOTYPES]
+

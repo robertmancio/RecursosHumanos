@@ -1,0 +1,15 @@
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\bin\Debug\CapaVista.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\bin\Debug\CapaVista.pdb
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\bin\Debug\CapaControlador.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\bin\Debug\CapaModelo.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\bin\Debug\CapaControlador.pdb
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\bin\Debug\CapaModelo.pdb
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\obj\Debug\CapaVista.csproj.AssemblyReference.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\obj\Debug\CapaVista.ConsultasInteligentes.resources
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\obj\Debug\CapaVista.menuconsultas.resources
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\obj\Debug\CapaVista.Properties.Resources.resources
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\obj\Debug\CapaVista.csproj.GenerateResource.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\obj\Debug\CapaVista.csproj.CopyComplete
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\obj\Debug\CapaVista.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaVista\obj\Debug\CapaVista.pdb

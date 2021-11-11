@@ -1,0 +1,17 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayuda5002.chm
+Contents file=c:\Users\RM\Desktop\Ayudas\Ayuda5002.hhc
+Default Window=Ayuda5002
+Display compile progress=No
+Language=0x100a Español (Guatemala)
+
+[WINDOWS]
+Ayuda5002="Ayuda5002","c:\Users\RM\Desktop\Ayudas\Ayuda5002.hhc",,"C:\Users\RM\Desktop\Ayudas\Ayuda5002.html","C:\Users\RM\Desktop\Ayudas\Ayuda5002.html","C:\Users\RM\Desktop\Ayudas\Ayuda5002.html","Ayuda5002","C:\Users\RM\Desktop\Ayudas\Ayuda5002.html","Ayuda5002",0x23520,,0xc387e,,,,,,,,0
+
+
+[FILES]
+C:\Users\RM\Desktop\Ayudas\Ayuda5002.html
+
+[INFOTYPES]
+

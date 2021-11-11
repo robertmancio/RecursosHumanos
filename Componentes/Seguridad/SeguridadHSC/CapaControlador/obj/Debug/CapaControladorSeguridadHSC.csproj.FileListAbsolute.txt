@@ -1,0 +1,9 @@
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\SeguridadHSC\CapaControlador\bin\Debug\CapaControladorSeguridadHSC.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\SeguridadHSC\CapaControlador\bin\Debug\CapaControladorSeguridadHSC.pdb
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\SeguridadHSC\CapaControlador\bin\Debug\CapaModeloSeguridadHSC.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\SeguridadHSC\CapaControlador\bin\Debug\CapaModeloSeguridadHSC.pdb
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\SeguridadHSC\CapaControlador\obj\Debug\CapaControladorSeguridadHSC.csproj.AssemblyReference.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\SeguridadHSC\CapaControlador\obj\Debug\CapaControladorSeguridadHSC.csproj.CoreCompileInputs.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\SeguridadHSC\CapaControlador\obj\Debug\CapaControladorSeguridadHSC.csproj.CopyComplete
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\SeguridadHSC\CapaControlador\obj\Debug\CapaControladorSeguridadHSC.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\SeguridadHSC\CapaControlador\obj\Debug\CapaControladorSeguridadHSC.pdb

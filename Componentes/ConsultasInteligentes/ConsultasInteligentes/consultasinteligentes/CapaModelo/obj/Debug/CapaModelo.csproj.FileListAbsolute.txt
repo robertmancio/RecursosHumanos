@@ -1,0 +1,6 @@
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaModelo\bin\Debug\CapaModelo.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaModelo\bin\Debug\CapaModelo.pdb
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaModelo\obj\Debug\CapaModelo.csproj.AssemblyReference.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaModelo\obj\Debug\CapaModelo.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\ConsultasInteligentes\ConsultasInteligentes\consultasinteligentes\CapaModelo\obj\Debug\CapaModelo.pdb

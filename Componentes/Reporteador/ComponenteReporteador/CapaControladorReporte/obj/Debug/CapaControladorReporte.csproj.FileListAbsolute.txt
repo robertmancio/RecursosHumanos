@@ -1,0 +1,9 @@
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\bin\Debug\CapaControladorReporte.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\bin\Debug\CapaControladorReporte.pdb
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\bin\Debug\CapaModeloReporte.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\bin\Debug\CapaModeloReporte.pdb
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\obj\Debug\CapaControladorReporte.csproj.AssemblyReference.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\obj\Debug\CapaControladorReporte.csproj.CoreCompileInputs.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\obj\Debug\CapaControladorReporte.csproj.CopyComplete
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\obj\Debug\CapaControladorReporte.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Reporteador\ComponenteReporteador\CapaControladorReporte\obj\Debug\CapaControladorReporte.pdb

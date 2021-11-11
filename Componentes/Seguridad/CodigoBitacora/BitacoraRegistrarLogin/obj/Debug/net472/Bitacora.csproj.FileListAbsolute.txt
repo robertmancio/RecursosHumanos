@@ -1,0 +1,12 @@
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\bin\Debug\net472\Bitacora.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\bin\Debug\net472\Bitacora.pdb
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\bin\Debug\net472\Dapper.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\bin\Debug\net472\System.Data.Odbc.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\obj\Debug\net472\Bitacora.csproj.AssemblyReference.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\obj\Debug\net472\Bitacora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\obj\Debug\net472\Bitacora.AssemblyInfoInputs.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\obj\Debug\net472\Bitacora.AssemblyInfo.cs
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\obj\Debug\net472\Bitacora.csproj.CoreCompileInputs.cache
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\obj\Debug\net472\Bitacora.csproj.CopyComplete
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\obj\Debug\net472\Bitacora.dll
+C:\Users\RM\Desktop\final\ProyectoHSC22021\Componentes\Seguridad\CodigoBitacora\BitacoraRegistrarLogin\obj\Debug\net472\Bitacora.pdb
